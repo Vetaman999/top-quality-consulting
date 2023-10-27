@@ -1,0 +1,132 @@
+nav {
+    background: transparent;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    padding: 12px 0;
+    z-index: 12;
+}
+
+.bg__dark {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+nav .menu {
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.links li {
+    list-style: none;
+}
+
+.links a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1rem;
+}
+
+.links a:hover {
+    color: var(--lightBlue);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.navbar-title {
+    color: var(--white);
+    font-size: 24px;
+}
+
+.navbar-title:hover {
+    color: var(--lightBlue);
+}
+
+.navbar-title::before {
+    content: "Top ";
+    color: var(--lightBlue);
+}
+
+.navbar-title::after {
+    content: " Consulting";
+    color: var(--lightBlue);
+}
+
+nav .links {
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar-logo {
+    width: 27px;
+    filter: invert(1);
+    height: auto;
+    cursor: pointer;
+
+    @media (min-width: 650px) {
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
+
+    .links li {
+        display: none;
+    }
+
+    .linksactive {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        display: block;
+        text-align: center;
+        top: 70px;
+        left: 0;
+        right: 0;
+        transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    }
+
+    .linksactive li {
+        margin: 20px;
+        list-style: none;
+        transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    }
+
+    .linksactive a {
+        font-size: 20px;
+        text-decoration: none;
+        color: var(--white);
+        font-size: 20px;
+        transition: all 0.3s ease;
+
+    }
+
+    .linksactive a:hover {
+        color: var(--lightBlue);
+        font-size: 22px;
+        font-weight: 500;
+
+    }
+
+    .navbar-background {
+        position: absolute;
+        left: -2000px;
+        transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+
+    .navbar-backgroundactive {
+        position: absolute;
+        background: rgba(24, 25, 24, 255);
+        width: 100%;
+        height: 100vh;
+        top: 0px;
+        left: 0;
+        right: 0;
+        z-index: -1
+    }
+}

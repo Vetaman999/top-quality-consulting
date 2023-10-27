@@ -1,0 +1,76 @@
+.presentation {
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.presentation-backfround {
+    background-color: rgba(0, 0, 0, 0.9);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.presentation-content {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.presentation-logo {
+    width: 313.481px;
+    height: 310.846px;
+    padding-right: 1rem;
+    flex-shrink: 0;
+}
+
+.presentation-content-title-primary {
+    color: #64ffda;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.presentation-content-title-secundary {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+hr {
+    width: 372px;
+    height: 2.5px;
+    background-color: #64FFDA;
+    border: none;
+    margin-top: 7px;
+    margin-bottom: 13px;
+    border-radius: 2rem;
+}
+
+.presentation-content-title-slogan {
+    color: #64FFDA;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+@media (max-width: 890px) {
+    .presentation-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .presentation-logo {
+        width: 280px;
+        height: 280px;
+        padding-right: 1rem;
+        flex-shrink: 0;
+    }
+}

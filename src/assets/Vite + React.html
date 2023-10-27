@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)http://127.0.0.1:5173/home -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <script type="module">import { injectIntoGlobalHook } from "/@react-refresh";
+injectIntoGlobalHook(window);
+window.$RefreshReg$ = () => {};
+window.$RefreshSig$ = () => (type) => type;</script>
+
+  <script type="module" src="./Vite + React_files/client"></script>
+
+  
+  <link rel="icon" type="image/svg+xml" href="http://127.0.0.1:5173/vite.svg">
+  <link href="./Vite + React_files/css2" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vite + React</title>
+<style type="text/css" data-vite-dev-id="D:/Hugo_Quispe/proyectos-personales/curso-react/project-top-quality/src/components/Navbar/Navbar.css">nav {
+    background: transparent;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    padding: 12px 0;
+    z-index: 12;
+}
+
+.bg__dark {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+nav .menu {
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.links a:hover {
+    color: #64ffda;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.navbar-title {
+    color: #fff;
+    font-size: 24px;
+}
+
+.navbar-title:hover {
+    color: #64ffda;
+}
+
+.navbar-title::before {
+    content: "Top ";
+    color: #64ffda;
+}
+
+.navbar-title::after {
+    content: " Consulting";
+    color: #64ffda;
+}
+
+nav .links {
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar-logo {
+    width: 27px;
+    filter: invert(1);
+    height: auto;
+    cursor: pointer;
+
+    @media (min-width: 650px) {
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
+    .links {
+        position: absolute;
+        left: -2000px;
+    }
+
+    .linksactive {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        display: block;
+        text-align: center;
+        top: 70px;
+        left: 0;
+        right: 0;
+    }
+
+    .linksactive li {
+        margin: 20px;
+    }
+
+    .linksactive a {
+        font-size: 20px;
+    }
+
+    .linksactive a:hover {
+        color: #64ffda;
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .navbar-background {
+        position: absolute;
+        background-color: #333;
+        width: 100%;
+        height: 100%;
+    }
+}</style><style type="text/css" data-vite-dev-id="D:/Hugo_Quispe/proyectos-personales/curso-react/project-top-quality/src/components/Cover/Cover.css">.presentation {
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.presentation-backfround {
+    background-color: rgba(0, 0, 0, 0.9);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.presentation-content {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.presentation-logo {
+    width: 313.481px;
+    height: 310.846px;
+    padding-right: 1rem;
+    flex-shrink: 0;
+}
+
+.presentation-content-title-primary {
+    color: #64ffda;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.presentation-content-title-secundary {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+hr {
+    width: 372px;
+    height: 2.5px;
+    background-color: #64FFDA;
+    border: none;
+    margin-top: 7px;
+    margin-bottom: 13px;
+    border-radius: 2rem;
+}
+
+.presentation-content-title-slogan {
+    color: #64FFDA;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+@media (max-width: 890px) {
+    .presentation-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .presentation-logo {
+        width: 280px;
+        height: 280px;
+        padding-right: 1rem;
+        flex-shrink: 0;
+    }
+}</style><style type="text/css" data-vite-dev-id="D:/Hugo_Quispe/proyectos-personales/curso-react/project-top-quality/src/App.css">* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}</style><style type="text/css" data-vite-dev-id="D:/Hugo_Quispe/proyectos-personales/curso-react/project-top-quality/src/main.css">@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}</style><script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script></head>
+
+<body class="vsc-initialized">
+  <div id="root"><nav class="none"><div class="menu"><span class="navbar-title" href="#">Quality</span><ul class="links"><li><a href="http://127.0.0.1:5173/home">Home</a></li><li><a href="http://127.0.0.1:5173/about">About</a></li><li><a href="http://127.0.0.1:5173/service">Service</a></li><li><a href="http://127.0.0.1:5173/contact">Contact</a></li></ul><img src="./Vite + React_files/burger.svg" class="navbar-logo" alt="React logo"></div><section class="navbar-background"></section></nav><section class="presentation"><div class="presentation-background"></div><div class="presentation-content"><div class="presentation-content-logo"><img src="./Vite + React_files/logo.svg" class="presentation-logo" alt="React logo"></div><div class="presentation-content-title"><h2 class="presentation-content-title-primary">Top</h2><h2 class="presentation-content-title-secundary">Quality</h2><h2 class="presentation-content-title-primary">Consulting</h2><hr><span class="presentation-content-title-slogan">Calidad, confianza y excelencia</span></div></div></section></div>
+  <script type="module" src="./Vite + React_files/main.jsx"></script>
+
+
+</body></html>
