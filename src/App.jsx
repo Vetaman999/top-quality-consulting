@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar/Navbar"
 import Cover from "./components/Cover/Cover"
+import Footer from "./components/Footer/Footer"
 import './App.css'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
         <>
             <Navbar />
             <Cover />
+            <Footer />
         </>
     )
 }
