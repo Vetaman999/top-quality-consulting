@@ -1,5 +1,6 @@
 import './Cover.css'
 import topLogo from '../../assets/logo.svg'
+
 function Cover() {
     return (
         <>
