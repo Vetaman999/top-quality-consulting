@@ -36,4 +36,16 @@
 
 .footer-content .footer-content-socialnetwork img {
     margin: 0px 14.5px 0px 14.5px;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .footer-content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-content-socialnetwork{
+        margin: 2rem 0 2rem 0;
+    }
 }
