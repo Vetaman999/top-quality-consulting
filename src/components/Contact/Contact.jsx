@@ -8,7 +8,7 @@ import Email from '../../assets/IconsContact/email.svg'
 function Contact() {
     return (
         <>
-            <section className='contact'>
+            <section className='contact' id='Contact'>
                 <div className='contact-content'>
                     <div className='contact-content-left'>
                         <strong className='contact-content-primary'>Dispuestos a asesorarte</strong>

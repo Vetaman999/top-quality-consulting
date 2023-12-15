@@ -1,0 +1,58 @@
+.service {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 200px 0 200px 0;
+}
+
+.service-content {
+    max-width: 1250px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+
+    .service-first {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        flex-direction: column;
+        text-align: center;
+
+        .service-logo-main {
+            width: 150px;
+            height: 150px;
+        }
+
+        .service-first-title {
+            font-size: 35px;
+            font-weight: 400;
+            margin: 35px 0 35px 0;
+        }
+
+        .service-first-description {
+            font-size: 20px;
+            font-weight: 300;
+            max-width: 742px;
+        }
+    }
+
+    .service-second{
+        display: flex;
+        flex-direction: column;
+        .service-cards{
+            display: flex;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .service-second{
+        flex-direction: column;
+        .service-cards{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

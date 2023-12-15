@@ -4,7 +4,7 @@ import topLogo from '../../assets/logo.svg'
 function Cover() {
     return (
         <>
-            <section className='presentation'>
+            <section className='presentation' id='Home'>
                 <div className='presentation-background'></div>
                 <div className='presentation-content'>
                     <div className='presentation-content-logo'>

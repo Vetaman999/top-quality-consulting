@@ -27,10 +27,10 @@ function Navbar(props) {
                         Quality
                     </span>
                     <ul className={`links${clicked && (scrollX < 650) ? 'active' : ''}`}>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/">About</a></li>
-                        <li><a href="/">Service</a></li>
-                        <li><a href="/">Contact</a></li>
+                        <li><a onClick={handleClick} href="#Home">Home</a></li>
+                        <li><a onClick={handleClick} href="#About">About</a></li>
+                        <li><a onClick={handleClick} href="#Contact">Contact</a></li>
+                        <li><a onClick={handleClick} href="#Service">Service</a></li>
                     </ul>
                     <img onClick={handleClick} src={burger} className="navbar-logo" alt="React logo" />
                 </div>

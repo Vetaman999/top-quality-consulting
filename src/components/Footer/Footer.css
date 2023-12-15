@@ -16,6 +16,15 @@
     justify-content: space-between;
 }
 
+.logo {
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.logo:hover {
+    filter: drop-shadow(0 0 20px #64ffb7aa);
+}
+
 .footer-content .footer-content-title {
     color: #64FFDA;
     font-family: Rubik;
@@ -27,11 +36,8 @@
 
 .footer-content .footer-content-email {
     color: #64FFDA;
-    font-family: Rubik;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
 .footer-content .footer-content-socialnetwork img {
@@ -39,13 +45,26 @@
     cursor: pointer;
 }
 
+.footer-content-socialnetwork a :hover {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-content-email:hover {
+    font-size: 18px;
+}
+
+.footer-content-title:hover {
+    font-size: 20px;
+}
+
 @media (max-width: 900px) {
-    .footer-content{
+    .footer-content {
         flex-direction: column;
         align-items: center;
     }
 
-    .footer-content-socialnetwork{
+    .footer-content-socialnetwork {
         margin: 2rem 0 2rem 0;
     }
 }

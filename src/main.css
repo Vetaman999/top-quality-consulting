@@ -12,6 +12,14 @@
     --mainColor:  #292D32;;
 }
 
+html {
+    scroll-behavior: smooth ;
+}
+
+section[id] {
+    scroll-margin-top: 100px;
+}
+
 body {
     margin: 0;
     font-family: 'Rubik', sans-serif;

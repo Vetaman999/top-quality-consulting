@@ -5,8 +5,8 @@ import PictureTwo from '../../assets/IconsAbout/picture-two.svg'
 
 function About() {
     return (
-        <article className='about'>
-            <section className="about-content">
+        <article className='about' >
+            <section className="about-content" id='About'>
                 <div className="about-content-heder">
                     <h1 className="about-content-h-title">
                         Asesorate con nosotros

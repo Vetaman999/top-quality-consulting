@@ -16,15 +16,15 @@ function Footer() {
 
     return (
         <>
-            <section className="footer">
+            <section className="footer" id="footer">
                 <div className="footer-content">
                     <h2 className='footer-content-title'>Top Quality Consulting 2023 ©</h2>
                     <div className="footer-content-socialnetwork">
-                        <a href={FACEBOOK_LINK} target="_blank"><img src={Facebook} /></a>
-                        <a href={INSTAGRAM_LINK} target="_blank"><img src={Instagram} /></a>
-                        <a href={YOUTUBE_LINK} target="_blank"><img src={Youtube} /></a>
-                        <a href={WHATSAPP_LINK} target="_blank"><img src={Whatsapp} /></a>
-                        <a href={LINCKEDIN_LINK} target="_blank"><img src={Linkedin} /></a>
+                        <a href={FACEBOOK_LINK} target="_blank"><img className='logo' src={Facebook} /></a>
+                        <a href={INSTAGRAM_LINK} target="_blank"><img className='logo' src={Instagram} /></a>
+                        <a href={YOUTUBE_LINK} target="_blank"><img className='logo' src={Youtube} /></a>
+                        <a href={WHATSAPP_LINK} target="_blank"><img className='logo' src={Whatsapp} /></a>
+                        <a href={LINCKEDIN_LINK} target="_blank"><img className='logo' src={Linkedin} /></a>
                     </div>
                     <h2 className='footer-content-email'>informes@topquality-consulting.com</h2>
                 </div>
