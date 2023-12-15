@@ -6,7 +6,7 @@ function Card({ logo, title, description }) {
             <header className="card">
                 <img src={logo} alt="" className="card-logo" />
                 <div className='card-content'>
-                    <strong className="card-title">{title}</strong>
+                    <p className="card-title">{title}</p>
                     <span className="card-description">{description}</span>
                 </div>
             </header>

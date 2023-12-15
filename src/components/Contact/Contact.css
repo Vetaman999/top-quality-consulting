@@ -23,6 +23,7 @@
 
 .contact-content-primary {
     font-size: 24px;
+    font-weight: 500;
 }
 
 .contact-content-par-one, .contact-content-primary, .contact-content-secundary{
@@ -31,11 +32,13 @@
 
 .contact-content-secundary{
     font-size: 32px;
+    font-weight: 500;
     margin:     16px 0 34px 0;
 }
 
 .contact-content-par-one {
     font-size: 16px;
+    font-weight: 300;
 }
 
 .contact-content-rigth {
@@ -61,6 +64,7 @@
     font-size: 24px;
     width: 373px;
     padding-bottom: 50px;
+    font-weight: 500;
 }
 
 @media (max-width: 1050px) {
