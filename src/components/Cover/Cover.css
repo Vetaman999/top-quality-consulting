@@ -1,6 +1,6 @@
 .presentation {
     min-height: 100vh;
-    background: rgba(0, 0, 0, 0.9);
+    background: var(--mainColor);
     display: flex;
     padding: 30px;
     justify-content: center;
@@ -9,7 +9,7 @@
 }
 
 .presentation-backfround {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: var(--mainColor);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -23,8 +23,6 @@
     display: flex;
     justify-content: center;
 }
-
-
 
 .presentation-logo {
     width: 313.481px;
