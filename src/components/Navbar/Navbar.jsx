@@ -8,6 +8,7 @@ function Navbar(props) {
     const [scrollX, setScrollX] = useState(0);
     const [clicked, setClicked] = useState(false);
 
+
     const handleClick = () => {
         setClicked(!clicked)
     }
@@ -26,15 +27,15 @@ function Navbar(props) {
                     <span className='navbar-title' href="#">
                         Quality
                     </span>
-                    <ul className={`links${clicked && (scrollX < 650) ? 'active' : ''}`}>
+                    <ul className={`links ${clicked ? 'active' : ''}`}>
                         <li><a onClick={handleClick} href="#Home">Home</a></li>
                         <li><a onClick={handleClick} href="#About">About</a></li>
                         <li><a onClick={handleClick} href="#Contact">Contact</a></li>
                         <li><a onClick={handleClick} href="#Service">Service</a></li>
                     </ul>
-                    <img onClick={handleClick} src={burger} className="navbar-logo" alt="React logo" />
+                    <img onClick={handleClick} src={burger} className={`navbar-logo ${clicked ? 'active' : ''}`} alt="React logo" />
                 </div>
-                <section className={`navbar-background${clicked ? 'active' : ''}`}></section>
+                <section className={`navbar-background ${clicked ? 'active' : ''}`}></section>
             </nav >
         </>
     )

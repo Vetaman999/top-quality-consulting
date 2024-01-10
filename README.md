@@ -1,8 +1,9 @@
-# React + Vite
+# TOP QUALITY CONSULTING
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta pagina web esta construida con vistas minimalistas para la empresa Top Quality Consulting.
 
-Currently, two official plugins are available:
+TQC es una empresa especializada en brindar asesorias para capacitar a instituciones en el proceso de la obtención de las certificaciones ISO:21001-2018 y ISO:9001-2015.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Actualmente, esta desplegado en Netlify:
+
+- [WEB_SITE/TOP_QUALITY_CONSULTING](https://top-quality-consulting.netlify.app)
